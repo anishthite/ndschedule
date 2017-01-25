@@ -1,7 +1,7 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
 
-  "name": "NOtre Dame Schedule",
+  "name": "Notre Dame Schedule",
   "description": "This extension shows the schedule for ND",
   "version": "1.0",
 
