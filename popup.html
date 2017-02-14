@@ -17,7 +17,15 @@
         white-space: pre;
         text-overflow: ellipsis;
         overflow: hidden;
-        max-width: 400px;
+        max-width: 800px;
+        min-length: 400px;
+        max-length:800px;
+        min-width: 400px;
+      }
+      .button1 {background-color: #4CAF50;
+              border: none;
+              color: white;
+
       }
     </style>
 
@@ -30,7 +38,27 @@
     <script src="popup.js"></script>
   </head>
   <body>
-   <a href="www.nytimes.com">Visit W3Schools</a>
+
+    <form>
+    <input type="button" onclick="" value="Normal Day">
+    </form>
+    <form>
+    <input type="button" onclick="" value="Early Dismissal - 11:57">
+    </form>
+    <form>
+    <input type="button" onclick="" value="Early Dismissal - 2:00">
+    </form>
+    <form>
+    <input type="button" onclick="" value="Delayed Opening">
+    </form>
+    <form>
+    <input type="button" onclick="" value="Mass Day">
+    </form>
+    <form>
+    <input type="button" onclick="" value="TA (if not on Monday)">
+    </form>
+
+   <!--<a href="www.nytimes.com">Visit W3Schools</a>-->
     <div id="status"></div>
     <img id="image-result" hidden>
   </body>
