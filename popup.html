@@ -35,29 +35,32 @@
       -
       - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
      -->
-    <script src="popup.js"></script>
   </head>
   <body>
+    
+    <script type="text/javascript" src="popup.js"></script>
 
+    <button type="button" id="thing">Click me</button>
+      
     <form>
-    <input type="button" onclick="" value="Normal Day">
+    <input type="button"  value="Normal Day">
+    </form> 
+    <form>
+    <input type="button"  value="Early Dismissal - 11:57">
     </form>
     <form>
-    <input type="button" onclick="" value="Early Dismissal - 11:57">
+    <input type="button"  value="Early Dismissal - 2:00">
     </form>
     <form>
-    <input type="button" onclick="" value="Early Dismissal - 2:00">
+    <input type="button"  value="Delayed Opening">
     </form>
     <form>
-    <input type="button" onclick="" value="Delayed Opening">
+    <input type="button"  value="Mass Day">
     </form>
     <form>
-    <input type="button" onclick="" value="Mass Day">
+    <input type="button"  value="TA (if not on Monday)">
     </form>
-    <form>
-    <input type="button" onclick="" value="TA (if not on Monday)">
-    </form>
-
+<span id="demo"></span>
    <!--<a href="www.nytimes.com">Visit W3Schools</a>-->
     <div id="status"></div>
     <img id="image-result" hidden>

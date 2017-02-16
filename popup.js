@@ -4,7 +4,7 @@ var linebreak = "<br />";
 var today = new Date();
 function get_currentDay(){
     var currentDayNumber = today.getDay();
-    return currentDay;
+    return currentDayNumber;
 }
 function get_currentTime(){
 
@@ -12,11 +12,18 @@ function get_currentTime(){
 
     return currentTime;
 }
-function normal(){
-    if (getcurrentDay() == 1)
 
+function test(){
 
-}
+document.getElementById("demo").innerHTML = "hello";
+
+}   
 document.write (get_currentDay());
 document.write (linebreak);
 document.write("The current time is: " + get_currentTime());
+
+ window.onload = function() {
+
+     document.getElementById('thing').onclick = test;
+}
+ 
